@@ -1,0 +1,195 @@
+.color{
+    height:60px ;
+    width:1520px ;
+    background-color: blue;
+    margin-top:15px ;
+}
+ul{
+    display: flex;
+    font-size: 15px;
+    list-style: none; margin-left:100px ;
+
+}
+li{
+    margin-left:60px ; margin-top:20px ;
+    color:white ;
+}
+.box1{
+    height:500px ;
+    width:1000px;
+    background-color: beige;
+    border-radius: 3%;
+     border:2px solid rgb(147, 189, 147); 
+     margin-top:50px ;
+}
+.box2{ margin-left:10px ;
+  height:320px;
+  width:500px;
+  background-color:beige ;
+  border-radius:3% ;
+  border:2px solid rgb(147, 189, 147);
+   margin-top:50px ;
+}
+.box3{
+  height:250px;
+  width:990px;
+  background-color:beige ;
+  border-radius:3% ;
+  border:2px solid rgb(147, 189, 147);
+   margin-top:30px ;
+}
+.box4{ margin-left:10px ;
+  height:250px;
+  width:500px;
+  background-color:beige ;
+  border-radius:3% ;
+  border:2px solid rgb(147, 189, 147);
+   margin-top:30px ;
+}
+.boxs1{  margin-left:35px ;
+    height:130px ;
+    width:220px ;
+    padding:6px ;
+    border-radius:6% ;
+  background-color:rgb(222, 133, 133) ;
+  font-size: 20px;
+}
+.boxs2{
+   margin-left:10px ;
+    height:130px ;
+    width:220px ;
+    padding:6px ;
+    border-radius:6% ;
+  background-color:rgb(113, 206, 132) ;
+  font-size: 20px;
+}.boxs3{
+   margin-left:10px ;
+    height:130px ;
+    width:220px ;
+    padding:6px ;
+    border-radius:6% ;
+  background-color:rgb(93, 118, 187) ;
+   font-size: 20px;
+}
+.boxs4{
+   margin-left:10px ;
+    height:130px ;
+    width:220px ;
+    padding:6px ;
+    border-radius:6% ;
+  background-color:rgb(147, 169, 65) ;
+   font-size: 20px;
+}
+.boxs5{
+   margin-top:10px ;
+  margin-left: 35px;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(31, 76, 104) ;
+ font-size: 20px;
+}.boxs6{
+   margin-top:10px ;
+  margin-left:10px;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(118, 66, 239) ;
+ font-size: 20px;
+}.boxs7{
+   margin-top:10px ;
+  margin-left: 10px;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(46, 214, 96) ;
+ font-size: 20px;
+}.boxs8{
+  margin-top:10px ;
+  margin-left: 10px;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(226, 75, 171) ;
+ font-size: 20px;
+}
+.boxs9{ margin-top: 10px;
+  margin-left:35px ;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(63, 11, 219) ;
+ font-size: 20px;
+}.boxs10{ margin-top:10px ;
+  margin-left:10px;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(224, 239, 8) ;
+ font-size: 20px;
+}.boxs11{
+  margin-top:10px ;
+  margin-left: 10px;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(15, 143, 30) ;
+ font-size: 20px;
+}.boxs12{
+  margin-top:10px ;
+  margin-left: 10px;
+  height:130px ;
+  width:220px ;
+  padding:6px ;
+  border-radius:6% ;
+background-color:rgb(151, 50, 166) ;
+ font-size: 20px;
+}
+ .truck{
+    font-size:40px ;
+    color: white;
+}
+.columns{
+  font-size:40px ;
+  color:white;
+}
+.bolt{
+  font-size:40px;
+  color:white;
+}.man{
+  font-size:40px;
+  color:white;
+}
+.book{
+  font-size:40px ;
+  color:white ;
+}
+.line{
+  font-size:40px ;
+  color:white;
+}.wallet{
+  font-size:40px ;
+  color:white;
+}
+.water{
+  font-size:40px ;
+  color:white ;
+}
+.form1{
+  width:350px;
+  height:30px;
+}
+.form11{
+  width:350px;
+  height:30px;
+  border-radius:3px ;
+  color: rgb(250, 250, 251);
+  background-color: blue;
+}
