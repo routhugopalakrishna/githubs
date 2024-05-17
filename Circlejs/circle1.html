@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circleDocument</title>
+    <style>
+.circle1{
+height:100px ;
+width:100px ;
+background-color:red ;
+border:2px solid green; border-radius:50% ;
+}
+.circle2{
+height:100px ;
+width:100px ;
+ margin-left:1400px ;
+  margin-top:-100px;
+background-color:rgb(55, 0, 255) ;
+border:2px solid green; border-radius:50% ;
+}.circle3{
+height:100px ;
+width:100px ; margin-top:500px ;
+background-color:rgb(200, 194, 23) ;
+border:2px solid green; border-radius:50% ;
+}.circle4{
+height:100px ;
+width:100px ; margin-top:-100px ; margin-left:1400px ;
+background-color:rgb(0, 225, 255) ;
+border:2px solid green; border-radius:50% ;
+}
+    </style>
+</head>
+<body>
+   
+    <div class=" circle1" id="left1" onclick="rightbottom()">RIGHTBOTTOM</div>
+    <div class=" circle2"id="left2"  onclick="leftbottom()">LEFTBOTTOM</div>
+    <div class=" circle3"id="left3"  onclick="righttop()">RIGHTTOP</div>
+    <div class=" circle4"id="left4" onclick="lefttop()">LEFTTOP</div>
+  
+    <script>
+        function rightbottom(){
+            document.getElementById("left1").style.marginLeft="350px";
+            document.getElementById("left1").style.transform="scale(120%)";
+            document.getElementById("left1").style.transition="10s";
+            document.getElementById("left1").style.marginTop="50px";
+        }
+        function leftbottom(){
+            document.getElementById("left2").style.marginLeft="350px";
+            document.getElementById("left2").style.transform="scale(120%)";
+            document.getElementById("left2").style.transition="10s";
+            document.getElementById("left2").style.marginTop="50px";
+        } function righttop(){
+            document.getElementById("left3").style.marginLeft="350px";
+            document.getElementById("left3").style.transform="scale(120%)";
+            document.getElementById("left3").style.transition="10s";
+            document.getElementById("left3").style.marginTop="50px";
+        } function lefttop(){
+            document.getElementById("left4").style.marginLeft="350px";
+            document.getElementById("left4").style.transform="scale(120%)";
+            document.getElementById("left4").style.transition="10s";
+            document.getElementById("left4").style.marginTop="50px";
+        }
+    </script>
+</body>
+</html>
