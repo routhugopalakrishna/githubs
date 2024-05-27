@@ -1,0 +1,362 @@
+li{
+    display:inline;
+    padding: 15px;
+    height:50px;
+    width:10px;
+    font-size:24px ;
+    color: rgb(27, 26, 26);
+  
+  }
+  a{text-decoration: none;} 
+  .img{
+    display:flex; 
+    margin-left:10px ;
+  }
+  .menu{
+  
+    margin-top:80px ;
+    margin-left:100px ;
+   
+  }
+  .combo{
+    display:flex;
+}
+.colo1{ 
+   
+    position: relative;
+    background-color: rgba(251, 253, 253, 0.975);
+    margin-top:100px ;
+    height:1030px;
+    width: 900px;
+   
+}
+.colo2{
+           
+  position:relative ;
+  background-color: rgb(248, 249, 250);
+  margin-top:100px ;
+  height:1030px;
+  width: 700px;
+ 
+}
+.child1{
+  position: absolute;
+  font-size:25px ;
+  left: 45px;
+  top: 40px;
+}
+.child2{
+  position: absolute;
+  top:250px ;
+  left:110px;
+  font-size: 26px;
+}
+.white{
+  position: absolute;
+  top: 1180px;
+  left:130px;
+  height:250px ;
+  width:330px;
+  border-radius:10px ;
+  background-color: #f8faf9;
+  border: 2px solid blue;
+  padding:20px ;
+}
+.white2{
+  position: absolute;
+  border-radius:10px ;
+  top: 1180px;
+  left:600px;
+  height:250px ;
+  width:330px;
+  background-color: #f8faf9;
+  border: 2px solid blue;
+  padding:20px ;
+}.white3{
+  position: absolute;
+  border-radius:10px ;
+  top: 1180px; 
+  left:1060px;
+  height:250px ;
+  width:330px;
+  background-color: #f8faf9;
+  border: 2px solid blue;
+  padding:20px ;
+}.oo{
+  position: absolute;
+  top:100px;
+}
+
+.pp{ 
+  margin-top:300px ; margin-left:630px ;
+} 
+.img1{ 
+  margin-top:50px ;
+  margin-left:60px ;
+  height:80px;
+ }
+ 
+.coursebtn{
+  position: relative;
+}.coursebtn1{
+  position:relative;
+}
+.ddmenu{
+  z-index:1;
+ visibility: hidden;
+position: absolute;
+top:40px;
+left: -50px;
+} 
+
+.ddmenu :hover {
+ 
+ visibility: visible;
+
+} 
+
+.ddmenu1{ 
+  visibility: hidden;
+  position: absolute;
+  left:-50px;
+} 
+.go{
+  height: 250px;
+  width: 330px;
+  border: 3px solid black;
+  border-radius:10px;
+}
+.go2{
+  height:250px;
+  width:330px;
+  border:3px solid black;
+  border-radius:10px;
+}
+.go3{
+  height:250px;
+  width:330px;
+  border:3px solid black;
+  border-radius:10px;
+}
+.ss{ position: absolute;
+  height:30px;
+  width:90px;
+  font-size:20px ;
+  border-radius:10%;
+  margin-top:15px ;
+  margin-left:110px; 
+  padding:10px;
+  background-color: aliceblue;
+  
+}
+
+.ss1{ position: absolute;
+  height: 30px;
+  width:90px;
+  font-size:20px ;
+  border-radius:10%;
+  margin-top:30px ;
+  margin-left:110px;
+  padding:10px;
+  background-color:aliceblue;
+}
+.ss2{ position: absolute;
+  height:30px;
+  width:90px;
+  font-size:20px ;
+  border-radius:10%;
+   margin-top:16px ;
+  margin-left:110px;
+  padding:10px;
+  background-color: aliceblue;
+}
+.heading1{
+  background-color: aquamarine;
+  height:20px;
+  width:120px;
+  border-radius:6%;
+  left:10px;
+  top:-100px ;
+  border:2px solid blue ; 
+  
+}
+.heading{
+  top:-10px ;
+ left:20px ;  
+ 
+}
+.gopala5{
+  height:1600px;
+  width:1600px;
+  opacity: 0.5;
+  
+} .box1{
+  height: 400px;
+  width:360px ;
+  background-color: rgb(88, 100, 110);
+  margin-left: 60px;
+  margin-top:30px ;
+  border-radius:5% ; 
+}
+.hhh{
+  height:50px ;
+  width:180px;
+  margin-top: 100px;
+  background-color: blueviolet;
+  border-radius:6%;
+}
+
+.form11{
+  visibility: hidden;
+  position: absolute; 
+margin-top:10px ;
+  margin-left:400px ;
+  z-index:1;
+  font-size:25px ; height:600px ;
+  width:400px ;
+  border:3px solid rgb(45, 176, 30) ;
+  border-radius:10px ; 
+  padding:15px;
+  background-color: aqua;
+    
+}
+.form12{
+  visibility: hidden;
+  position: absolute; 
+  margin-top:10px ;
+  margin-left:100px ;
+  z-index:1;
+  font-size:25px ;   
+height:600px ;
+width:400px ;
+border:3px solid rgb(45, 176, 30) ;
+border-radius:10px ; 
+padding:15px;
+background-color: aqua;
+}
+
+.hhh1{ position: absolute;
+  left:400px ;
+ height:45px ;
+ width:180px;
+ border-radius:30px ;
+ background-color: rgb(155, 155, 185);
+ font-size: 30px;
+ border:3px solid black ;
+ color: black;
+ padding:10px;
+}
+ 
+.form1{ 
+  visibility: hidden;
+  background-color: rgb(127, 255, 189);
+ height:550px;
+ width:380px;
+ z-index:1;
+ font-size:25px ;
+ border: 3px solid green;
+ border-radius:10px;
+ padding:2%;
+}
+.formfont{
+  font-size:25px ;
+}
+.nam{
+  font-size:16px ;
+  height:35px;
+  width:260px;
+
+}
+.xicon{ margin-top:-10px;
+  margin-left:365px ;
+  height:20px ;
+  width:20px ;
+  border-radius:50% ;
+  background-color: #f8f5fa;
+  padding:3%;
+}
+.xicon1{
+  margin-left:205px ;
+  height:20px ;
+  width:20px ;
+  border-radius:50% ;
+  background-color: #f8f5fa;
+  padding:3%;
+}
+.imageparent1{
+  position: relative;
+  height:400px;
+  width:700px;
+   margin-top: 20px;
+   margin-left:30px ;
+   opacity:0.5;
+}
+.imageparent2{
+ position: relative;
+ height:400px;
+ width:700px;
+  margin-top:20px ;
+ margin-left:20px;
+ opacity: 0.5;
+}
+.imagechild1{
+  position: absolute;
+margin-top:-300px ; 
+margin-left:90px ;
+margin-right:180px ;
+}
+.imagechild2{
+  position: absolute;
+  margin-top:-300px ;
+  margin-left:50px ; 
+  }
+
+  .but1{ 
+    position: absolute;
+    margin-top:-150px ; 
+    margin-left:350px ; height:50px ;
+    width:360px ;
+     background-color: aquamarine; 
+     border:3px  solid greenyellow;
+      border-radius:10px ;
+      padding:3px ;
+  }
+
+  .change{ 
+    position: relative;
+    visibility: hidden;  
+  margin-top:900px ; 
+  margin-left:300px ;
+   height:510px ; 
+   width:400px ;
+   background-color: aquamarine; 
+   border-radius:5px ;
+   border:3px solid greenyellow ;
+    padding:10px ;
+
+  }
+  
+  .change12{ 
+    position: relative; 
+    visibility: hidden; 
+  margin-top:150px ; 
+  margin-left:360px ;
+   height:510px ; 
+   width:400px ;
+   background-color: aquamarine; 
+   border-radius:5px ;
+   border:3px solid greenyellow ;
+    padding:10px ;
+
+  }
+  
+  .but2{ 
+    position: absolute;
+    margin-top:50px ; 
+    margin-left:560px ; height:50px ;
+    width:360px ;
+     background-color: aquamarine; 
+     border:3px  solid greenyellow;
+      border-radius:10px ;
+      padding:3px ;
+  }
