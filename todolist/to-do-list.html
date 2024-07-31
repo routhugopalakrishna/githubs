@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <input type="text" id="todo-input" placeholder="Add a new task" onkeypress="handleKeyPress(event)">
+        <button id="add-button" onclick="addTodo()">Add</button>
+        <ul id="todo-list"></ul>
+    </div>
+    <script>
+function handleKeyPress(event) {
+    if (event.key === 'Enter') {
+        addTodo();
+    }
+}
+
+function addTodo() {
+    const input = document.getElementById('todo-input');
+    const task = input.value.trim();
+    if (task !== '') {
+        addTodoItem(task);
+        input.value = '';
+    }
+}
+
+function addTodoItem(task) {
+    const todoList = document.getElementById('todo-list');
+    const li = document.createElement('li');
+    li.className = 'todo-item';
+    li.textContent = task;
+    const deleteButton = document.createElement('button');
+    deleteButton.className = 'delete-button';
+    deleteButton.textContent = 'Delete';
+    deleteButton.onclick = function () {
+        todoList.removeChild(li);
+    };
+
+    li.appendChild(deleteButton);
+    todoList.appendChild(li);
+}
+    </script>
+</body>
+</html>

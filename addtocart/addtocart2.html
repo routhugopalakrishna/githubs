@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>addtocartDocument</title>
+    <style>
+      .cart {
+        height: 500px;
+        width: 320px;
+        background-color: rgb(175, 205, 195);
+        border: 3px solid black;
+        border-radius: 5%;
+        margin-left: 20px;
+      }
+      .img {
+        height: 150px;
+        width: 260px;
+        border: 2px solid green;
+        margin-top: 15px;
+        margin-left: 25px;
+      }
+      .add {
+        height: 50px;
+        width: 100px;
+        background-color: antiquewhite;
+        margin-left: 100px;
+        margin-top: 20px;}
+      .remove {
+        height: 50px;
+        width: 100px;
+        background-color: antiquewhite;
+        margin-left: 100px;
+        margin-top: 20px;
+       
+       
+    
+      }
+      .cart1 {
+        height: 10px;
+        width: 10px;
+        background-color: blanchedalmond;
+        border-radius: 50%;
+        border: 2px solid green;
+        padding: 15%;
+        margin-left: 200px;
+      }
+      .cart2 {
+        height: 50px;
+        width: 150px;
+        background-color: blanchedalmond;
+        border: 3px solid black;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-top: 10px;
+        padding: 10%;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div style="display: flex">
+      <div class="cart">
+        <img class="img" src="" />
+        <div>
+          QTY:
+          <select id="qty1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div>PRICE:<span id="price1">20000</span></div>
+        <button class="add" onclick="addtocart(1)">ADDTOCART</button>
+         <div class="disappear" id="rqty">
+          QTY:
+          <select  id="qty11">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+         </div>
+        <button class="remove" onclick="removecart(1)">REMOVE</button>
+      </div>
+      
+           <div class="cart">
+             <img class="img" src="" />
+             <div>
+             QTY:
+             <select id="qty2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+            </div>
+             <div>PRICE:<span id="price2">30000</span></div>
+            <button class="add" onclick="addtocart(2)">ADDTOCART</button>
+             <div>
+             QTY:
+          <select id="qty12">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <button class="remove"  onclick="removecart(2)">REMOVE</button>
+      </div>
+
+      <div class="cart">
+        <img class="img" src="" />
+        <div>
+          QTY:
+          <select id="qty3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div>PRICE:<span id="price3">40000</span></div>
+        <button class="add" onclick="addtocart(3)">ADDTOCART</button>
+        <div>
+          QTY:
+          <select id="qty13">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <button class="remove"  onclick="removecart(3)">REMOVE</button>
+      </div>
+      <div>
+        <div class="cart1"id="cart1">0 </div>
+        <div class="cart2">TOTAL PRICE:<span id="cart2">0</span</div>
+      </div>
+    </div>
+    <script>
+      function addtocart(a)
+       {
+        if (a== 1) {
+          let qty = Number(document.getElementById("qty1").value);
+          let price = Number(document.getElementById("price1").innerHTML);
+          price1 = qty * price;
+          document.getElementById("qty11").value =qty;
+         
+        }
+     
+        if (a == 2) {
+          let qty = Number(document.getElementById("qty2").value);
+          let price = Number(document.getElementById("price2").innerHTML);
+          price1 = qty * price;
+         
+          document.getElementById("qty12").value = qty;
+        }
+
+        if (a == 3) {
+          let qty = Number(document.getElementById("qty3").value);
+          let price = Number(document.getElementById("price3").innerHTML);
+          price1 = qty * price;
+          document.getElementById("qty13").value =qty; 
+         
+        }
+      
+
+        let oldprice = Number(document.getElementById("cart2").innerHTML)
+            let pastvalue = Number (document.getElementById("cart1").innerHTML);
+           
+            
+                document.getElementById("cart1").innerHTML = pastvalue +1;
+                document.getElementById("cart2").innerHTML = oldprice+price1;
+               
+    }
+    
+    
+      function removecart(a) {
+        if (a == 1) {
+          let qty = Number(document.getElementById("qty11").value);
+          let price = Number(document.getElementById("price1").innerHTML);
+          price1 = qty * price;
+        
+        }
+        if (a == 2) {
+          let qty = Number(document.getElementById("qty12").value);
+          let price = Number(document.getElementById("price2").innerHTML);
+          price1 = qty * price;
+          
+        }
+        if (a == 3) {
+          let qty = Number(document.getElementById("qty13").value);
+          let price = Number(document.getElementById("price3").innerHTML);
+          price1 = qty * price;
+        
+        }
+
+        let oldprice = Number(document.getElementById("cart2").innerHTML)
+            let pastvalue = Number (document.getElementById("cart1").innerHTML);
+            
+           
+                document.getElementById("cart1").innerHTML = pastvalue - 1;
+                document.getElementById("cart2").innerHTML = oldprice - price1;
+           
+        }
+    
+      
+        
+      
+    
+    </script>
+  </body>
+</html>

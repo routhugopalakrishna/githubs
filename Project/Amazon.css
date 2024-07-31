@@ -1,0 +1,292 @@
+
+
+.display{
+    display:flex;
+}
+.mobileimg{
+    height:70px ;
+    width:60px ;
+    border:2px solid rgb(187, 164, 164);
+    border-radius:10% ;
+
+}
+.mobilesimgline{
+ height:500px ;
+ width:100px ;
+ margin-top:35px ;
+ 
+}
+
+.box{
+    height:450px;
+    width:260px ;
+   margin-top:20px ;
+    border:1.5px solid black ;
+    border-radius:3% ;
+}
+
+.font{
+    font-size:14px ;
+    margin-top:-20px ;
+    color: rgb(22, 202, 142);
+}
+.font1{
+    font-size:14px ;
+    margin-top:-16px ;
+    
+}.img{
+    height:500px ;
+    width:450px ;
+    
+}
+.img1{
+    height:17px ;
+    width:70px ;
+    background-color:white ; 
+}
+.pricesize{
+    font-size:26px ;
+    margin-top:-5px ;
+    font-weight: 800;
+}
+.choice{
+    height: 35px;
+    width:100px ; margin-top:-10px ;
+}
+.font2{
+    font-size:12px ;
+    opacity:0.6 ; margin-top:-8px ;
+}
+.font3{
+    font-size:14px ;
+
+    opacity:0.6 ;
+    margin-top: -21px;
+
+}
+.font4{
+    margin-top:-10px ;
+    font-size:15px ;
+}
+.font5{
+    font-weight: 560;
+    margin-top:-5px ;
+  
+    
+}
+.offersbox1{
+    height:110px;
+    width:140px ;
+    margin-top:20px ;
+    border:1.5px solid black ;
+    margin-left:5px ;
+    border-radius:4px ;
+}
+.offerdisplay{
+    display: flex;
+    margin-top:-20px ;
+} 
+.font5{
+    font-size:12.3px ;
+    font-weight: 360;margin-left: 3px;
+    margin-right:3px ;
+    opacity: 0.6;
+}
+.transportation{
+    display: flex;
+    color:rgb(103, 201, 236)
+}
+.mobilecolor{
+    height:40px ;
+    width:40px ;
+   border-radius:50% ;
+    border:1px solid black;
+    margin-top:-1px ;
+    margin-left:-6px ;
+}
+.colorbtn{
+    height:44px ;
+    width:44px ;
+    margin-left:6px ;
+ 
+    
+}
+.displaycolors{
+    display:flex;
+}
+.displaysize{
+    display:flex;
+}
+.buttonsize{
+    height: 40px;
+    width:80px ;
+    margin-left:15px ;
+    border-radius:8% ;
+}
+.contentbox{
+    height:800px ;
+    width: 460px;
+}
+.contentfont{
+    font-size: 14px ;
+}
+.font6{
+    font-size:14px ;
+    font-weight: 760;
+    margin-top: -16px;
+    color: rgb(217, 42, 42);
+}
+.checkbox{
+    margin-left:130px ;
+     margin-top:10px ;
+}
+.bgcolor{
+    background-color:lightgray;
+    height:68px ;
+    width:259.5px ;
+    margin-top:-21.8px ;
+    border-radius:9px;
+    margin-left:-15px ;
+}
+.pricecolor{
+    color:black ;
+    opacity:0.6 ;
+}
+.fontcolor{
+    color:rgb(30, 194, 30);
+    font-size:20px ;
+}
+.font7{
+    font-size:12px ;
+    margin-top:-300px ;
+}
+.textleft{
+    margin-left: 15px;
+}
+.checkbox1{
+   margin-left:95px ;
+}
+.button1{
+    height:40px ;
+    width:230px ;
+ border-radius:7% ;
+ margin-top:15px ;
+ background-color: #FFDD00 ;
+}
+.button2{
+    height:40px ;
+    width:230px ;
+ border-radius:7% ;
+ margin-top:5px ;
+ background-color:  #FFA500;
+}
+.deliveryimg{
+    height: 34px;
+    width:34px ;
+    margin-left:15px ;
+}
+.storeimage1{
+height:600px ;
+}
+.headline{
+    margin-left: 700px;
+    margin-top: -50px;
+    color: rgb(71, 159, 130);
+}
+.heading{
+    color: rgb(71, 159, 130);  
+}
+.storeimage2{
+    height:600px ;
+    margin-top:50px ;
+    }
+    .imagetop{
+        margin-top:-450px ;
+        width:1320px ;
+    }
+    .imagetop1{
+      margin-top:-5px ;
+        width:1320px ;
+    }
+    .deleteimg{
+        height:10px ;
+        width:10px ;
+   
+    }
+    .mainpageimg{
+        height:300px;
+        margin-top:-15px ;
+    }
+    .mainpage{
+        height:300px ;
+        width:1340px ;
+       
+       display: flex;
+    }
+    .primeimg{
+        height:16px;
+        margin-top:-22px ;
+    }
+.mainpagebutton{
+    height:23px ;
+    width:90px ;
+    border-radius:10% ;
+    margin-left:10px ;
+    background-color: #FFDD00 ;
+}
+.pricesize1{
+    font-size:26px ;
+    margin-top:-12px ;
+    font-weight: 800;
+}
+.mainpagespace4{
+    margin-top:-8px ;
+    font-size: 14px;
+    opacity:0.6;
+}
+.mainpagedeliveryfont{
+    margin-top:-1px ;
+    font-size: 15px;
+    opacity:0.6 ;
+}
+.mainpagedeliveryfont1{
+    margin-top:-10px ;
+    opacity:0.6;
+}
+.displaytopimg{
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    margin-top:-8px ;
+    margin-left:6px ;
+}
+.font10{
+    font-size:12px ;
+    margin-top:-10px ;
+}
+.orderedimg{
+    height:40px ;
+    width:50px ;
+}
+.slide{
+    color: red;
+    background-color: aqua;
+    height:40px ;
+    width: 30px;
+}
+.margin{
+   opacity:0.6 ;
+}
+.bankbutton{
+    margin-left:1300px ;
+}
+.font11{
+    margin-top:14px ;
+}
+.bank{
+    height:16px ;
+}
+.emi{
+    opacity:0.6 ;
+}

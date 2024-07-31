@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>circleDocument</title>
+  
     <style>
 .circle1{
 height:100px ;
@@ -33,10 +34,10 @@ border:2px solid green; border-radius:50% ;
 </head>
 <body>
    
-    <div class=" circle1" id="left1" onclick="rightbottom()">RIGHTBOTTOM</div>
-    <div class=" circle2"id="left2"  onclick="leftbottom()">LEFTBOTTOM</div>
-    <div class=" circle3"id="left3"  onclick="righttop()">RIGHTTOP</div>
-    <div class=" circle4"id="left4" onclick="lefttop()">LEFTTOP</div>
+    <div class=" circle1" id="left1" onclick="rightbottom()"></div>
+    <div class=" circle2"id="left2"  onclick="leftbottom()"></div>
+    <div class=" circle3"id="left3"  onclick="righttop()"></div>
+    <div class=" circle4"id="left4" onclick="lefttop()"></div>
   
     <script>
         function rightbottom(){
@@ -44,7 +45,7 @@ border:2px solid green; border-radius:50% ;
             document.getElementById("left1").style.transform="scale(120%)";
             document.getElementById("left1").style.transition="10s";
             document.getElementById("left1").style.marginTop="50px";
-        }
+        }         
         function leftbottom(){
             document.getElementById("left2").style.marginLeft="350px";
             document.getElementById("left2").style.transform="scale(120%)";
@@ -58,7 +59,7 @@ border:2px solid green; border-radius:50% ;
         } function lefttop(){
             document.getElementById("left4").style.marginLeft="350px";
             document.getElementById("left4").style.transform="scale(120%)";
-            document.getElementById("left4").style.transition="10s";
+            document.getElementById("left4").style.transition="5s";
             document.getElementById("left4").style.marginTop="50px";
         }
     </script>

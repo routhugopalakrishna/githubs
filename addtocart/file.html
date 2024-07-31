@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addtocartDocument</title>
+    <style>
+        .cart1{
+            height: 500px;
+            width: 300px;
+            border:3px solid rgb(177, 14, 99) ;
+             margin-left:60px;
+        }
+        li{
+            list-style: none;
+           
+        } 
+        .off{
+            height: 20px;
+            width:130px ; 
+            background-color:red ;
+            padding:2%;
+        }.cart{
+            background-color:rgb(188, 188, 77) ; 
+            height:50px ;
+            width: 100px; 
+            margin-top:40px ; 
+            margin-left: 90px;
+        }
+    
+        .qty{
+            margin-left:100px ;
+        }
+        .img2{
+            height:200px ;
+        }
+        .card {
+            width: 25px;
+            height: 25px;
+            border: 3px solid rgb(188, 232, 12);
+            background-color: burlywood;
+            border-radius: 20%;
+            margin-top: 120px;
+            margin-left: 130px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            padding: 5%;
+        }
+        .total{
+            height:60px ;
+            width:200px;
+            border:3px solid green ;
+            background-color: aquamarine;
+            padding:5px;
+            margin-top:20px;
+            margin-left: 80px;
+            border-radius: 25px;
+          
+        }
+    </style>
+</head>
+<body>
+   
+    <h1>ADD TO CART</h1>
+ <div style="display: flex;">
+        <div class="cart1">
+            <img src="https://m.media-amazon.com/images/I/41GsqdiCvOL._AC_SY200_.jpg">
+            <h3>Redmi 12 5G Jade Black 6GB RAM 128GB ROM</h3>
+            <h4 class="off">Up To 30% Off</h4>
+            <h3>PRICE:<strike>40999</strike><span id="price1">30999</span></h3>
+          <div>QTY:
+            <select class="QTY" id="qty1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+          </div>
+           <div><button class="cart" onclick="addtocart(1)">Add Item</button></div>
+        </div>
+        <div class="cart1">
+            <img  class="img2"src="https://images-eu.ssl-images-amazon.com/images/I/61abLrCfF7L._AC_UL165_SR165,165_.jpg">
+            <h3>realme GT 6T 5G (Fluid Silver,8GB RAM+128GB)</h3>
+            <h4 class="off">Up To 30% Off</h4>
+            <h3>PRICE:<strike>44999</strike><span id="price2">30999</span></h3>
+           <div>QTY: 
+            <select id="qty2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+        </div>
+            <button class="cart" onclick="addtocart(2)">Add Item </button>
+        </div>
+        <div class="cart1">
+            
+        </div>
+       <div>
+        <div id="cart" class="card">0</div>
+
+    <div class="total">Total Price: <span id="totalprice">0</span> </div></div>
+    </div>
+    <script>
+        function addtocart(a){
+ if(a==1){
+
+qty = Number(document.getElementById("qty1").value);
+price = Number(document.getElementById("price1").innerHTML)
+
+price = qty*price;
+}
+if(a==2){
+
+qty = Number(document.getElementById("qty2").value);
+price = Number(document.getElementById("price2").innerHTML)
+
+price = qty*price;
+}
+       let cart8 =Number(document.getElementById("cart").innerHTML);
+        let totalprice3 =Number(document.getElementById("totalprice").innerHTML);
+
+        document.getElementById("cart").innerHTML=cart8+qty;
+        document.getElementById("totalprice").innerHTML=totalprice3+price;
+           }
+    </script>
+</body>
+</html>
