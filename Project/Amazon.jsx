@@ -39,6 +39,7 @@ const contenthide=()=>{
     document.getElementById("work").style.color="blue";
 }
 
+
     return(
         <>
         <div className="displaytopimg">
@@ -137,11 +138,11 @@ const contenthide=()=>{
 <hr></hr>
 <p> Color:{color}</p>
    <div className="displaycolors">
-   <button className="colorbtn" onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg");setColor("Black")}}><p className="mobilecolor"style={{backgroundColor:"#A8A8A8"}}></p></button> 
-    <button className="colorbtn"onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg");setColor("Blue")}}><p  className="mobilecolor"style={{backgroundColor:"#91C5EA"}}></p></button>
-    <button className="colorbtn" onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71nvkHnPpZL._SL1500_.jpg");setColor("Green")}}><p  className="mobilecolor"style={{backgroundColor:"#98FB98"}}></p></button>
-    <button className="colorbtn" onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71v2jVh6nIL._SL1500_.jpg");setColor("Pink")}}><p  className="mobilecolor" style={{backgroundColor:" #FFB6C1"}}></p></button> 
-    <button className="colorbtn"  onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71REplb5oZL._SL1500_.jpg");setColor("Yellow")}}><p className="mobilecolor" style={{backgroundColor:" #FFFFE0"}}></p></button>
+   <button className="color-button"  onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg");setColor("Black")}}><p className="mobilecolor"style={{backgroundColor:"#A8A8A8"}}></p></button> 
+    <button className="color-button"onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg");setColor("Blue")}}><p  className="mobilecolor"style={{backgroundColor:"#91C5EA"}}></p></button>
+    <button className="color-button" onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71nvkHnPpZL._SL1500_.jpg");setColor("Green")}}><p  className="mobilecolor"style={{backgroundColor:"#98FB98"}}></p></button>
+    <button className="color-button" onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71v2jVh6nIL._SL1500_.jpg");setColor("Pink")}}><p  className="mobilecolor" style={{backgroundColor:" #FFB6C1"}}></p></button> 
+    <button className="color-button"  onClick={()=>{setMainImage("https://m.media-amazon.com/images/I/71REplb5oZL._SL1500_.jpg");setColor("Yellow")}}><p className="mobilecolor" style={{backgroundColor:" #FFFFE0"}}></p></button>
     </div> 
 <p>Size:{size}</p>
 <div className="displaysize">
@@ -192,7 +193,9 @@ const contenthide=()=>{
 <p>Sold by &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Appario Retail Private Ltd</p>
 
 </span>
-<button className="button1" onClick={apple}>Add to Cart</button>
+
+<button className="button1" onClick={()=>{apple()}}>Add to Cart </button>
+
 <button className="button2">Buy Now</button>
 <p><input type="checkbox"/>Add gift options</p>
 </div>
@@ -200,7 +203,7 @@ const contenthide=()=>{
         </div>
 
       <span>
-  <h3>SUBTOTAL</h3>
+  <h4>SUBTOTAL</h4>
   {product1 > 0 && (
     <div>
       <img className="orderedimg" src={mainImage} />
@@ -226,7 +229,7 @@ const contenthide=()=>{
       <option value="9">9</option>
       <option value="10">10</option>
     </select>
-    <button onClick={removeappleqty}>button</button>
+    <button onClick={removeappleqty}><img className=" delete" src="https://m.media-amazon.com/images/G/31/x-locale/shopping-cart/trash_icon._CB427526449_.png"/></button>
   </div>
  
 </span>
