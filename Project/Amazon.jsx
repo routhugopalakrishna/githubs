@@ -97,7 +97,7 @@ const offers= [
     title: 'Bank Offer',
     description: 'Upto ₹4,000.00 discount on select Credit Cards bank ',
     button: 'offer',
-    link: '/Bankoffer',
+    link: '/offer',
   },
   {
     title: 'No Cost EMI',
@@ -109,7 +109,7 @@ const offers= [
     title: 'Partner Offers',
     description: 'Get GST invoice and save up to 28% on business purchases.',
     button: 'offer',
-    link: '/Bankoffer',
+    link: '/offer',
    
   },
   {
