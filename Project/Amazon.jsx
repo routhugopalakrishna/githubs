@@ -185,7 +185,7 @@ const currentOffers = [
           <div className="custemers-buying-product">1K+ bought in past month</div>
            <hr></hr>
           <div className="product-price"><sup className="product-mainprice">₹</sup>{price}</div>
-          <div className="product-strike-price">M.R.P:<strike>₹1{strikeprice}</strike></div>
+          <div className="product-strike-price">M.R.P:<strike>₹{strikeprice}</strike></div>
           <div className="product-taxes">Inclusive of all taxes</div>
          <b>EMI</b><span className="product-taxes"> starts at ₹3,437. No Cost EMI available </span>
           <hr></hr>
@@ -204,8 +204,6 @@ const currentOffers = [
                     </div>
                     
                 ))}
-          
-              
             <button onClick={handleNext} >Next</button>
                </div>  
 
@@ -260,7 +258,7 @@ const currentOffers = [
                  <hr></hr>
            <div className="contentbox">
              <ul className="contentfont">
-              <h3><b>About this item</b></h3>
+              <h4><b>About this item</b></h4>
               <li>INNOVATIVE DESIGN — iPhone 15 features a durable color-infused glass and aluminum design. It’s splash, water, and dust resistant. The Ceramic Shield front is tougher than any smartphone glass. And the 6.1" Super Retina XDR display is up to 2x brighter in the sun compared to iPhone 14.</li>
               <li>48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.</li>
               <li>48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.</li>
@@ -295,14 +293,14 @@ const currentOffers = [
                     </div>
           </div>
           <div>
-             <h4>SUBTOTAL</h4>
+             <h5>SUBTOTAL</h5>
             {product1 > 0 && (
              <div>
                <img className="orderedimg" src={mainImage} />
-               <p>Apple iPhone 15 ({size}) - {color}</p>
+               <p>Apple {selectedProduct} ({size}) - {color}</p>
              </div>
               )}
-             <p><sup className="product-mainprice" >₹</sup>{totalprice}</p>
+             <p className="product-mainprice" >₹{totalprice}</p>
              {product1 > 0 && (
              <p> Quantity: {product1}</p>
              )}
