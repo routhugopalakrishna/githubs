@@ -195,12 +195,7 @@ const currentOffers = [
                     <div key={index} className="offers-box">
                         <div className="product-bankoffer">{offer.title}</div>
                         <span className="product-discount">{offer.description}</span>
-                       <div> <button className="offer-button"
-               
-                onClick={() => navigate(offer.link)}
-              >
-                {offer.button}
-              </button></div>
+                        <div> <button className="offer-button" onClick={() => navigate(offer.link)}>{offer.button} </button></div>
                     </div>
                     
                 ))}
@@ -253,7 +248,7 @@ const currentOffers = [
                 </div>
                 <div className="product-features">
                   <span className="brand-bold">Model Name</span>
-                  <span className="brand-space">{selectedProduct}</span>
+                  <span className="brand-space">APPLE{selectedProduct}</span>
                 </div>
                  <hr></hr>
            <div className="contentbox">
