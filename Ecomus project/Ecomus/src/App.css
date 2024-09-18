@@ -1,0 +1,1143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.int-back-color{
+    background-color: rgba(0, 0, 0, 0.879);
+    display: flex;
+justify-content:space-between;
+}
+.logo{
+ width:130px;
+ height:60px ;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.buy-button{
+    background-color: rgb(144, 232, 12);
+    color: white;
+    width:60px ;
+    height:40px ;
+    margin-top:10px ;
+}
+.company-name{
+    font-weight:bolder;
+    font-size:25px;
+   margin-top:6px;
+    background: linear-gradient(to right,#04026b, #09b909,  #5d0445);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 20px; 
+}
+
+.submenu{
+    display: flex;
+   
+}
+.submenu li{
+    list-style: none;
+color:white;
+margin-left:25px ;
+font-weight: 500;
+}
+.submenu ul li:hover{
+    color:green ;
+}
+.elevate{
+    font-weight: 700;
+}
+.success{
+    font-size:50px ;
+    color:white ;
+}
+
+.page-body-color{
+        background: linear-gradient(130deg,rgb(131, 204, 204) ,#17055f ,#12002c); 
+       height: fit-content;
+       position: relative; 
+}
+
+.btns { 
+    padding: 6px 16px 6px;
+    margin-top:180px ;
+    margin-left:650px ;
+    color:white;
+    font-weight: 650;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width:180px ;
+}
+.btn--changeGradient{
+        background: linear-gradient(90deg,#3cf2f2,rgb(82, 204, 82),#210c7f,#d0cd17 );
+       
+}
+.btn--changeGradient:hover{
+    background: linear-gradient(90deg, #300fa5, #ba3434,  #03517b);
+}
+.elevate{
+    text-align: center;
+    font-size:50px ;
+    font-weight:600;
+    color:white ;
+}
+
+.hero-text { 
+    font-weight:700;
+    background: linear-gradient(to right,#ffeb3b, #1ca71c, #080862, #da48b3);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+ 
+  }
+.content-line{
+   text-align: center; 
+    color:white ;
+    font-size:20px ;
+}
+.custom-btn {
+    width: 220px;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ;
+    display: inline-block;
+    box-shadow:  2px 2px 2px 2px rgba(177, 90, 90, 0.5);
+    letter-spacing: 1.0px;
+  margin-right:50px;
+  margin-top:50px ;
+ 
+}
+.btn-1{
+    color: #fff;
+    background-color: #7183a9;
+    padding: 7px 20px 6px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-1:hover {
+    color: #ff3571;
+    background: #fff;
+    box-shadow: 4px 3px #ee5253, 7px -2px #10ac84, 9px 3px #ff9f43, -5px -3px #ff3571, -7px 3px #5f27cd;
+}
+.main-page-img{
+    margin-top:10px ;
+    width:1100px ;
+    border-radius: 10px;
+}
+.mainpage-services{
+  
+margin-left:240px ;
+ margin-top: 30px;
+ color: white;
+ font-size:16px ;
+ font-weight:600;
+ height:45px ;
+ width:1000px ;
+ border:0.5px solid white ;
+ padding: 6px ;
+ border-radius: 40px;
+}
+.mainpage-services ul{
+
+  display: flex;
+  list-style: none;
+ 
+}
+.mainpage-services ul li{
+    margin-left:30px ;
+    margin-top:-10px ;
+   
+}
+.button-icons:hover{
+color:rgb(236, 9, 153) ;
+}
+.content-devlopment{
+text-align: center;
+ margin-top:80px ;
+    background: linear-gradient(to right, #5757a8, #fb08ba,rgb(139, 11, 82));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.content-devlopment { 
+     font-weight: 750;
+     font-size:45px ;
+   
+}
+.content-author{
+    font-weight: 650;
+    color: white;
+    font-size: 43px;
+  text-align: center;
+}
+.content-paragraph{
+ text-align: center;
+    color:white ;
+    font-size: 15px;
+}
+.main-page-img2{
+    width:1020px ;
+    margin-top:50px ;
+}
+.mainpage-timer{
+   text-align:center ;
+    margin-top:80px  ;
+    font-size:105px ;
+    background: linear-gradient(to bottom, #1e0874, #780459,red);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.page-heading-text{
+    font-size:15px;
+}
+.mainpage-demo{
+    font-weight: 600;
+font-size:50px ;
+background: linear-gradient(to top, #0772c4, #780459,rgb(103, 5, 87));
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.btn-2{
+    color: #fbfcfb;
+    background-color: #171212;
+    padding: 5px 16px 5px;
+    border-radius: 40px;
+    margin-left:10px ;
+    height:40px ;
+    font-size:16px ;
+    font-weight: 600;
+}
+.btn-2:hover{
+color: #ec0a9d;
+}
+.fashion-images{
+    display: flex;
+ margin-left:60px ;
+}
+.fashion-image1{
+    position:relative; 
+}
+.fashion-images img{
+ 
+    margin:10px;
+    width:300px ;
+    border-radius:10px ;
+    border:2px solid blue;
+   box-shadow: 3px 5px 6px 7px rgba(186, 28, 107, 0.2);
+   
+}
+.fashion-images img:hover{
+    border:2px solid rgb(255, 0, 170);
+}
+.fashionpage-body-color{ 
+    background: linear-gradient(#24078a, #021b34); 
+height: fit-content;
+position: relative; 
+
+}
+.page-body-color1{
+text-align: center;
+    background: linear-gradient(200deg,rgb(85, 107, 184) ,#0d0236, #022344); 
+   height: fit-content;
+   position: relative; 
+}
+.demopage-Subscribe{
+    font-size:50px ;
+   text-align: center;
+    font-weight: 700;
+    margin-top:100px ;
+background: linear-gradient(to left, #767ce3, #68025c,rgb(118, 110, 165));
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.demopage-white1{
+    color: white;
+    margin-left:30px ;
+}
+.demopage-white2{
+    color: white;
+    margin-left:40px ;
+}
+.demopage-white3{
+    color: white;
+    margin-left:160px ;
+}
+.demopage-percentage{
+    height:450px ;
+    width:800px ;
+    margin:10px ;
+    border-radius:3% ;
+    border:2px solid blue;
+}
+.featurespage-limitless{
+    display: flex;
+}
+.company-name1{
+    color:white ;
+    font-size:45px ;
+    font-weight: 650;
+    margin-left:500px ;
+
+}
+.features-limit{
+    font-family: "Quantico", sans-serif;
+    color:white ;
+    font-size:55px ;
+    font-weight: 750;
+ margin-left:100px ;
+    
+}
+
+.featurespage-white1{
+    margin-left:400px ;
+    color: white;
+    font-size:12px ;
+}
+.featurespage-white2{
+    margin-left:460px ;
+    color: white;
+    font-size:12px ;
+}
+.features-img{
+    width:360px ;
+    height:360px ;
+    margin:10px ;
+    border-radius:10px  ;
+    border:2px solid blue ;
+}
+.features-img:hover{
+    border:2px solid rgb(249, 6, 184) ;
+}
+.features-img1{
+    width:360px ;
+    height:360px ;
+    margin:10px ; 
+    border-radius:10px  ;
+    border:2px solid blue ; 
+}
+.features-img1:hover{
+    border:2px solid rgb(249, 6, 184) ;
+}
+.features-img2{
+    width:360px ;
+    height:260px ;
+    margin:10px ;
+    border-radius:10px  ;
+    border:2px solid blue ;
+  
+}
+.features-img2:hover{
+    border:2px solid rgb(249, 6, 184) ;
+}
+.fashion-images button{
+    display: flex;
+}
+.button-demo1{
+    position: absolute;
+    border-radius:40px ;
+    padding: 5px 10px 5px;
+   margin-top:-180px ;
+   color:white;
+   border: 2.5px solid rgb(210, 116, 116);
+   font-size:13px ;
+   font-weight:600 ;
+   background-color: #0772c4;
+    margin-left: 110px;
+    
+}
+.button-demo1:hover{
+    background-color:rgb(233, 7, 157) ;
+    padding:6px 12px 6px ;
+    border: 2.5px solid rgb(36, 12, 173);
+
+}
+.headerpage-list{
+   width:100% ;
+
+}
+.flag{
+    width: 30px;
+    border-radius:40px ;
+    border:2px solid rgb(231, 85, 114) ;
+}
+#countries{
+    list-style: none;
+    visibility: hidden;
+
+}
+#country-lang{
+    list-style: none;
+    visibility: hidden;
+}
+.socialmedia{
+    display: flex;
+    list-style: none;
+    background-color:white ;
+    width:100% ;
+    height:20px
+     ;
+  
+}
+.socialmedia li{
+margin-left:10px ;
+}
+.display-corner{
+    display: flex;
+    font-size:12px ;
+    margin-left:76% ;
+}
+
+.comus{
+    display: flex;
+    margin-top:-160px ;
+    background-color: #e4e8ae;
+    height: fit-content;
+}
+
+.subhead-page-list {
+    list-style: none;
+    display: flex; 
+    margin-left:230px;
+
+}
+.subhead-page-list  li{
+margin-top:0px ;
+margin-left:10px ;
+}
+.subhead-page-list1 {
+    list-style: none;
+    display: flex;
+    margin-left:400px ;
+}
+
+.subhead-page-list1  li{
+    margin-left:10px ;
+    margin-top:0px ;
+  
+}
+.page-heading{
+    font-size:55px ;
+    font-weight: 700;
+}
+.glamorous-img{
+  width:100% ;
+    height: 700px;
+}
+.collection-button{
+    margin-top:20px ;
+    height:50px ;
+    color:white ;
+    background-color: rgb(16, 15, 15);
+    border-radius:40px ;
+    font-weight: 700;
+}
+.Glamorous{
+    position:relative ;
+}
+.glamorous-text{ 
+    position: absolute;
+    font-size:30px ;
+   left:160px ;
+  top:230px;
+    
+}
+.product-card{
+    position:relative ;
+    background-color:white;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.product-card1{
+    position:relative ;
+    background-color:white;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.trending-product{
+    position: absolute;
+   top:460px;
+   left:150px ;
+   font-weight: 600;
+   height:60px ;
+   width:150px ;
+   border-radius:5px ;
+background-color:white ;
+}
+.trending-product1{
+    position: absolute;
+   top:310px;
+  font-weight: 600;
+   left:130px ;
+   height:40px ;
+   width:100px ;
+   border-radius:5px ;
+background-color:white ;
+}
+.trending-product1:hover{
+    background-color:black ;
+    color:white ;   
+}
+.poppins-font{
+    font-size: 100px;
+}
+.trending-product2{
+    position: absolute;
+   top:310px;  font-weight: 600;
+   left:130px ;
+   height:40px ;
+   width:100px ;
+   border-radius:5px ;
+background-color:white ;
+}
+.trending-product2:hover{
+    background-color:black ;
+    color:white ;   
+}
+.trending-product3{
+    position: absolute;
+   top:330px;
+  right:10px  ;
+   height:40px ;
+   width:40px ;
+   border-radius:50% ;
+background-color:white ;
+}
+.trending-product3:hover{
+    background-color:black ;
+    color:white ;   
+}
+
+.left{
+    margin:40px ;
+}
+.kitchen-wear{
+   top:900px;
+   width: 500px;
+   cursor: pointer;
+   transition:0.3s ;
+   border-radius:10px ;
+}
+.kitchen-wear:hover {
+   transform: scale(1.05);
+}
+.circle1{
+    position:absolute ;
+   border-radius:50% ; 
+   height:40px ;
+top:360px ;
+left:30px ;
+background-color:white ;
+  border:2px solid black ;
+  z-index: 1;
+}
+.circle2{
+    position:absolute ;
+   border-radius:50% ; 
+   height:40px ;
+top:360px ;
+right:30px;
+background-color:white ;
+  border:2px solid black ;
+}
+.product-img{
+    position: relative;
+    display: flex;
+}
+.bag-img{
+    position: relative;
+    display: flex;
+}
+.productcircle1{
+    position:absolute ;
+   border-radius:50% ; 
+   height:40px ;
+top:200px ;
+left:20px ;
+  border:2px solid black ;
+  z-index: 1;
+}
+.productcircle2{
+    position:absolute ;
+   border-radius:50% ; 
+   height:40px ;
+top:200px ;
+right:20px ;
+  border:2px solid black ;
+}
+.productcircle3{
+    position:absolute ;
+   border-radius:50% ; 
+   height:40px ;
+top:200px ;
+right:20px ;
+  border:2px solid black ;
+}
+
+.productcircle5{
+    position:absolute ;
+   border-radius:50% ; 
+   height:40px ;
+top:350px ;
+right:20px ;
+  border:2px solid black ;
+}
+.trending-product:hover{
+background-color:black ;
+color:white ;
+}
+
+#shopping-img {
+    height:400px;
+    width:380px ;
+    cursor: pointer;
+    transition:0.3s; 
+    border-radius: 8px; 
+}
+#shopping-img:hover {
+    transform: scale(1.05);
+ 
+}
+
+#modern-img {
+    height:385px;
+    width:100% ;
+    cursor: pointer;
+    transition:0.3s; 
+    border-radius: 8px; 
+}
+#modern-img:hover {
+    transform: scale(1.05);
+ 
+}
+.modern-lamp2{
+    position: relative;
+    height:365px ;
+    width: 570px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.modern-lamp2:hover{
+    transform: scale(1.05);
+}
+.modern-lamp1{
+    position: relative;
+    overflow: hidden;
+   
+}
+.lamp-text{
+    position: absolute;
+    top:10px ;
+    left:30px ;
+    color:white ;
+    font-weight: 600;
+}
+#modern-table{
+    height:700px ;
+    width:1500px ;
+    cursor: pointer;
+    transition:0.3s; 
+    border-radius: 8px; 
+}
+#modern-table:hover {
+    transform: scale(1.05);  
+}
+#shopping-image {
+    height:410px;
+    width:100%;
+    cursor: pointer;
+    transition:0.3s; 
+    border-radius: 8px; 
+}
+#shopping-image:hover {
+    transform: scale(1.05);
+ 
+}
+#shopping-img1 {
+    height:610px;
+    width:100% ;
+    cursor: pointer;
+    transition:0.3s ; 
+    border-radius: 8px; 
+   
+}
+#shopping-img1:hover {
+    transform: scale(1.05);
+}
+.shoplook{
+    width:660px;   
+}
+.brands{
+    display: flex;
+    margin-left:30px ;
+}
+.brands-img{
+    width:230px ;
+}
+.mobile-button{
+    position: absolute;
+    top:270px ;
+    left:10px ;
+    background-color:white ;
+    color: black;
+    font-weight: 600;
+    border-radius: 40px;
+}
+.mobile-button:hover{
+color:white ;
+background-color:black ;
+}
+.servicebox{
+    height:155px ;
+    width:320px ;
+    margin: 20px;
+    border:0.4px solid rgb(13, 13, 13) ;
+    text-align: center;
+border-radius:5px ;
+}
+.footerdata{
+    justify-content: space-around;
+    height: fit-content;
+    background-color: #ccdeed;
+    display: flex;
+}
+.footer{
+    margin-top:80px ;
+    line-height:20px ;
+
+}
+.display-NA{
+text-align: right;
+display: flex;
+}
+.subscribe-button{
+    height: 40px;
+    background-color: #171212;
+    color: white;
+}
+.shoplook-style{
+    cursor: pointer;
+    transition:0.3s ease; 
+    border-radius: 8px; 
+}
+.shoplook-style{
+    transform:scale(1.05) ;
+}
+.stories{
+    background-color:black ;
+    color: white;
+    border-radius: 40px;
+    height: 40px;
+}
+.image-style{
+    display: flex;
+   
+}
+
+.bag{
+    height: 260px;
+    cursor:pointer ;
+    transition:0.3s ; 
+    border-radius: 8px; 
+}
+.bag:hover{
+    transform: scale(1.05);
+}
+.bagimg{
+    width: 100%;
+    height: auto;
+    cursor:pointer ;
+    transition:0.3s ; 
+    border-radius: 8px; 
+}
+.bagimg:hover {
+    transform: scale(1.05);
+}
+.effortless{
+    margin-top:200px ;
+    margin-left:70px ;
+}
+.summerstyle{
+    margin-left:180px ;
+}
+
+.fashion:hover{
+    color:rgb(238, 95, 95) ;
+}
+.image-style-country{
+    display: flex;
+justify-content:space-around;
+}
+.store-img{
+    display: flex; 
+}
+.branches{
+    margin-top:60px ; 
+}
+.mobile-text{
+position: absolute;
+left:20px ;
+}
+.sound-box{
+    height: 600px;
+    width:700px ;
+    cursor:pointer ;
+    transition:0.3s  ;   
+}
+.sound-box:hover {
+    transform: scale(1.05);
+}
+
+
+.hongkong-location{
+    display: flex;
+justify-content:space-around;
+}
+.london-location{
+    display: flex;
+justify-content:space-around;
+visibility: hidden;
+margin-top:-500px ;
+}
+.paris-location{
+    display: flex;
+justify-content:space-around;
+visibility: hidden;
+margin-top:-500px ;
+}
+.store-content{
+    margin-top:50px ;
+   margin-left:50px ;
+}
+.men-img{
+    width: 500px;
+    height:560px;
+    cursor: pointer;
+    transition:0.3s  ;   
+}
+.men-img:hover {
+    transform: scale(1.05);
+}
+.content-center{
+  text-align: center;
+
+}
+.content-center1{
+   margin-left:60px ;
+  
+  }
+.women-img{
+    width: 100%;
+    height:300px ;
+    cursor: pointer;
+    transition:0.3s ;
+}
+.women-img:hover {
+    transform: scale(1.05);
+}
+.page-black{
+    position: absolute;
+    background-color:black ;
+    height:200px;
+    width:400px ;
+    top:340px;
+    left:150px ;
+   border-radius:10px ;
+}
+.glamorous-text1{ 
+    position: absolute;
+text-align: center;
+  color:white ;
+    
+}
+.season-colletion{
+    position: absolute;
+    top:40px ;
+}
+.season-colletion p{
+    position: absolute;
+    top:480px ;
+}
+.glamorous-text2{
+    position: absolute; 
+margin-left:70px ;
+margin-top:400px ;
+ color:white ;
+  top:30px ;  
+}
+.glamorous-text3{
+    position: absolute; 
+margin:240px ;
+ color:white ;
+  top:30px ; 
+ 
+}
+.glamorous-text4{
+    position: absolute; 
+margin:240px ;
+ color:rgb(16, 14, 14) ;
+  top:30px ; 
+
+}
+.facebuautypage{
+    position: absolute;
+    top:340px ;
+    left:200px;
+}
+.facebuautypage1{
+    position: absolute;
+    color: white;
+    top:0px ;
+    left:0px;
+}
+.beautyimg{
+    width:760px ;
+    cursor: pointer;
+    transition:0.3s  ;
+}
+.beautyimg:hover {
+    transform: scale(1.05);
+}
+.spring{
+margin:100px  ;
+}
+.glamorous-img3{
+    width:950px ;
+   height:733px ;
+   cursor: pointer;
+   transition:0.3s  ;
+}
+.glamorous-img3:hover{
+    transform:scale(1.05) ;
+}
+
+.escapades{
+    width:580px  ;
+    background-color: #574f4f;
+color:white ;
+text-align: center;
+}
+
+.redefining-fashion{
+   margin-top: 200px; 
+}
+.summerescapades{
+    width:200px ;
+    margin-top:100px ;
+   margin-left:15px ;
+   cursor: pointer;
+    transition:0.3s; 
+    border-radius: 50%; 
+}
+.summerescapades:hover {
+    transform: scale(1.05);
+}
+.season-colletion1{
+    position: absolute;
+    top:430px ;
+    left: 120px;
+}
+.simply-img{
+    height:800px ;
+    width:100% ;
+    cursor: pointer;
+    transition:0.3s ;
+}
+.simply-img:hover {
+    transform: scale(1.05);
+} 
+.women-img:hover {
+transform: scale(1.05);
+}
+.limited{
+    width:600px ;
+    margin-top:200px ;
+   text-align: center;
+
+}
+.image-wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+.small-img{
+    position: absolute;
+    width: 250px;
+    top:200px;
+    z-index: 1;
+    transition:0.3s ;
+  }  
+  .small-img:hover{
+    transform:scale(1.05) ;
+  }
+  .big-img {
+    position: absolute;
+    width: 600px;
+    height:600px ;
+     margin:10px ;
+    left: 150px;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .big-img:hover{
+    transform:scale(1.05) ;
+    z-index: 1;
+  }
+  .season-colletion1 {
+    position: absolute;
+    top:380px ;
+    left: 120px;
+    color: white;
+  }
+  .season-colletion2{
+    position: absolute;
+    top:430px ;
+    left: 120px;
+    color: white;
+
+}
+.season-colletion3{
+    position: absolute;
+    top:330px ;
+    left: 120px;
+    color: white;
+
+}
+.kidspage-text{
+    color:white ;
+}
+.shopnow{
+width:130px ;
+    height: 40px;
+    border-radius:40px ;
+    cursor: pointer;
+    transition:0.3s ;
+    border-radius: 8px; 
+    font-weight: 600;
+}
+.shopnow:hover{
+color:white ;
+    background: linear-gradient(130deg,rgb(131, 204, 204) ,#17055f ,#12002c); 
+    
+}
+#shopping-img2 {
+    height: 500px;
+    cursor: pointer;
+    transition:0.3s ; 
+    border-radius: 8px; 
+   
+}
+#shopping-img2:hover {
+    transform: scale(1.05);
+}
+.glamorous-text2 h1{
+    font-size:70px ;
+ 
+}
+.collection-button1{
+    height:33px ;
+    font-weight: 600;
+    background-color: #171212;
+    border-radius:40px ;
+    color: white;
+    margin-top:10px ;
+}
+.skincare{
+    position: relative;
+}
+.skincare-text{
+    position:relative;
+   
+
+}
+.skincare-text {
+    position:absolute;
+    top:440px; 
+    left:200px ;
+    color:white ;
+}
+.headphones{
+        width:200px ;
+        margin:22px ;
+       cursor: pointer;
+        transition:0.3s; 
+        border-radius: 8px; 
+    }
+    .headphones:hover {
+        transform: scale(1.05);
+    }
+    .headphones-img{
+        height:516px ;
+        width:100% ;
+        margin: 10px;
+        border-radius:10px;
+    }
+ 
+    .headphone{
+        position: relative;
+    }
+    .headphone-text{
+        position: absolute;
+     top:170px ;
+     color:white ;
+     left:200px ;
+    }
+    .giftcard{
+        background-color:rgb(125, 80, 167) ;
+    }
+    #giftcards{
+        height:430px ;
+        width:490px;
+        cursor: pointer;
+        transition:0.3s ;
+        border-radius: 10px; 
+
+    }
+    #giftcards:hover{
+        transform: scale(1.05);
+    }
+.shoes-img{
+    margin: 10px;
+    position: relative;
+}
+.mobile-button1{
+    position: absolute;
+    width: 130px;
+    left: 10px;
+    top:240px ;
+    background-color:white ;
+    color: black;
+    font-weight: 600;
+    border-radius: 40px;
+}
+.mobile-button1:hover{
+color:white ;
+background-color:black ;
+}
+.limited1{
+    margin-top:60px ;
+    margin-left:6px ;
+}
+.shoe-image{
+    cursor: pointer;
+    transition:0.3s ;
+    border-radius: 10px; 
+
+}
+.shoe-image:hover{
+    transform: scale(1.05);
+}
+.headphones-img2{
+    width:100%;
+    height:500px ;
+    border-radius:10px ;
+   
+}
