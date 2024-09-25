@@ -1,0 +1,162 @@
+export const menData = [{
+        "id": "1",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/1.jpg",
+        "type": "T-Shirt",
+        "brand": "Nike",
+        "model": "Sporty Tee",
+        "price": "2921.00",
+        "strikeprice": "2999.00",
+        "category": "Clothing",
+        "description": "A comfortable and stylish sporty t-shirt with moisture-wicking fabric.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "2",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/2.jpg",
+        "type": "Dress Shirt",
+        "brand": "Calvin Klein",
+        "model": "ClassicFit",
+        "price": "493.00",
+        "strikeprice": "999.00",
+        "category": "Clothing",
+        "description": "A classic fit dress shirt made from high-quality fabric, suitable for formal occasions.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "3",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/3.jpg",
+        "type": "Jeans",
+        "brand": "Levi's",
+        "model": "511 Slim Fit",
+        "price": "593.00",
+        "strikeprice": "999.00",
+        "category": "Clothing",
+        "description": "Slim fit jeans with a modern look, perfect for casual outings.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "4",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/4.jpg",
+        "type": "Polo Shirt",
+        "brand": "Ralph Lauren",
+        "model": "Signature Polo",
+        "price": "697.00",
+        "strikeprice": "899.00",
+        "category": "Clothing",
+        "description": "A classic polo shirt with the iconic Ralph Lauren logo, ideal for a refined casual look.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "5",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/5.jpg",
+        "type": "Jacket",
+        "brand": "The North Face",
+        "model": "Apex Bionic",
+        "price": "1239.00",
+        "strikeprice": "1899.00",
+        "category": "Clothing",
+        "description": "A versatile softshell jacket designed for outdoor activities and everyday wear.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "6",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/6.jpg",
+        "type": "Shorts",
+        "brand": "Under Armour",
+        "model": "Tech Mesh Shorts",
+        "price": "3214.00",
+        "strikeprice": "3899.00",
+        "category": "Clothing",
+        "description": "Lightweight and breathable mesh shorts for workouts and active lifestyles.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "7",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/7.jpg",
+        "type": "Sweater",
+        "brand": "Tommy Hilfiger",
+        "model": "Crewneck Sweater",
+        "price": "729.0",
+        "strikeprice": "899.00",
+        "category": "Clothing",
+        "description": "A classic crewneck sweater made from soft and comfortable materials.", 
+        "description1": "Free Home delivery."
+    },
+    {
+        "id": "8",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/8.jpg",
+        "type": "Suit",
+        "brand": "Hugo Boss",
+        "model": "ModernFit Suit",
+        "price": "1499.00",
+        "strikeprice": "1899.00",
+
+        "category": "Clothing",
+        "description": "A modern-fit suit crafted with attention to detail, perfect for formal occasions.",
+         "description1": "Free Home delivery."
+    
+
+    },
+    {
+        "id": "9",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/9.jpg",
+        "type": "Hoodie",
+        "brand": "Adidas",
+        "model": "Essentials Hoodie",
+        "price": "442.00",
+        "strikeprice": "799.00",
+        "category": "Clothing",
+        "description": "A comfortable and stylish hoodie with the Adidas logo, suitable for everyday wear.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "10",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/10.jpg",
+        "type": "Chinos",
+        "brand": "Dockers",
+        "model": "Alpha Khaki",
+        "price": "3921.00",
+        "strikeprice": "4599.00",
+        "category": "Clothing",
+        "description": "Versatile chino pants with a modern slim fit, suitable for casual and semi-formal occasions.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "11",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/11.jpg",
+        "type": "Swim Trunks",
+        "brand": "Speedo",
+        "model": "Endurance+ Swim Trunks",
+        "price": "2219.00",
+        "strikeprice": "2899.00",
+
+        "category": "Clothing",
+        "description": "Durable and comfortable swim trunks designed for performance and comfort in the water.",
+         "description1": "Free Home delivery."
+    },
+    {
+        "id": "12",
+        "product": "Menswear",
+        "image": "/assets/assets/MenWear/12.jpg",
+        "type": "Blazer",
+        "brand": "Brothers",
+        "model": "Classic Blazer",
+        "price": "1289.00",
+        "strikeprice": "1899.00",
+
+        "category": "Clothing",
+        "description": "A timeless classic blazer suitable for both professional and smart-casual looks.",
+         "description1": "Free Home delivery."
+    }
+]
