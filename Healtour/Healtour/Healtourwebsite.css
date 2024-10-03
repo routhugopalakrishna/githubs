@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F4F4F4;
+  color: #2A4E7E;
+}
+
+.healtour-sevices img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    opacity: 0.7; 
+}
+
+.healtour-website-logo {
+    max-width: 170px;
+    height: auto;
+    margin: 30px;
+}
+
+.healtour {
+    position: absolute;
+    display: flex;
+   justify-content: space-evenly;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(59, 172, 203, 0.7);
+}
+
+.healtour-wesite-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.healtour-wesite-list li {
+  font-weight: 500; 
+  line-height: 2.6;
+    margin: 20px 20px;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+}
+
+.healtour-wesite-list li:hover {
+    color: #0077B6;
+    transition: 0.3s;
+}
+
+.healtour-text {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 310px;
+}
+
+.healtour-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; 
+  color: #2A4E7E;
+}
+.healtour-text h6 {
+font-weight: 500;
+color: #88C57A;
+}
+.website-search{
+  position: absolute;
+  justify-content: center;
+ top: 730px;
+}
+.inputtype-text{
+  height: 50px;
+  width:500px ;
+  font-weight: 600;
+  font-size:17px ;
+ border-radius:40px 
+}
+.inputtype-text:hover{
+  -webkit-text-fill-color:black ;
+  border:3px solid  blue;
+}
+.inputtype-button{
+  height: 50px;
+  width:100px ;
+  font-size:17px ;
+  font-weight: 700;
+ border-radius:40px ;
+background-color: rgba(59, 172, 203, 0.7) ;
+color:white ;
+}
+.inputtype-button:hover{
+  background-color: #2A4E7E;
+  border:2px solid #888;
+}
+.services{
+ text-align: center;
+ font-size:25px ;
+}
+.services1 h2{
+margin-top:-40px ;
+ }
+ .services1 h6{
+  margin-top:-35px ;
+ }
+.services h1{
+  font-weight: 530;
+}
+.services-buttons{
+  display: flex;
+justify-content: center;
+}
+
+.category {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e0f7fa;
+  color: #09594f;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+text-align: center;
+margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.category:hover {
+  background-color: #4dd0e1; 
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); 
+}
+.card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 6px 6px 8px 8px rgba(28, 70, 175, 0.1);
+  margin: 10px;
+  width: 310px;
+  text-align: center;
+ 
+}
+.department {
+  color: #4B6D9E; 
+  font-weight: bold;
+}
+
+.cost {
+  color: #2A4E7E; 
+  margin: 10px 0; 
+}
+
+.info p {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.explore-btn {
+  background-color: #4CB6D4; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px; 
+  width: 100%; 
+}
+
+.explore-btn:hover {
+  background-color: #0077B6; 
+}
+.card h3{
+  font-weight: 500;
+  font-size:20px ;
+  
+}
+.display-cards{
+  display: flex;
+}
+.font-awesome{
+  margin:6px ;
+}
+.font-awesome  p{
+  margin-left:-20px ;
+}
+.explore{
+  margin-top:50px ;
+}
+.explore1{
+  margin-top:30px ;
+}
+.Hospital-card{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 6px 6px 8px 8px rgba(28, 70, 175, 0.1);
+  margin: 20px;
+  width: 370px;
+  text-align: center;
+}
+.Hospital-card1{
+  position: relative;
+  box-shadow: 6px 6px 8px 8px rgba(28, 70, 175, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin:10px ;
+  width:330px ;
+  height:510px ;
+  overflow: hidden;
+}
+.Hospitals-img{
+  position: absolute;
+  width:100%;
+  left:0px ;
+  height:250px ;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Hospitals-img:hover{
+  transform: scale(1.05);
+}
+.Hospital-info{
+  position: absolute;
+  top: 250px;
+}
+.Doctors-card{
+  position: relative;
+  box-shadow: 6px 6px 8px 8px rgba(28, 70, 175, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin:10px ;
+  width:310px ;
+  height:520px ;
+  overflow: hidden;
+}
+.explore2{
+  margin-top:45px ;
+  width:310px;
+}
+.font-awesome-services{
+  font-size:40px ;
+  margin-top: 10px;
+  padding:20px ;
+  border-radius:50%;
+  border: 2px solid #0077B6;
+}
+.Client-image{
+  border-radius:50% ;
+  height:80px ;
+  margin-top:25px ;
+}
+.lab-iamge{
+  width:400px ;
+  height:300px ;
+  margin:20px ;
+  border-radius:10px ;
+  border:2px solid  #4B6D9E;
+  cursor: pointer;
+  transition:0.3s ;
+ 
+}
+
+.lab-iamge:hover{
+transform: scale(1.05);
+
+}
+.lab-cards{
+  position: relative;
+ 
+}
+.lab-card {
+  position: absolute;
+  top:250px ;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 6px 6px 8px 8px rgba(28, 70, 175, 0.1);
+  margin-left:65px;
+  width: 310px;
+ text-align: center;
+ 
+
+
+}
+.footer-part-data{
+  margin-top:180px ;
+  height: fit-content;
+  background-color: #2A4E7E;
+}
+
+.address-text{
+  color: white;
+  margin-top:60px ;
+  width: 310px;
+ 
+}
+.text-gap{
+  margin-top:-50px ;
+}
+
+.list{
+  list-style: none;
+ 
+}
