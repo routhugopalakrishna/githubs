@@ -34,17 +34,16 @@ const Navbar = () => {
         <div className="search-boxs">
              
                 <input className='search-box' type="text"
-                placeholder="Search..."
-              
-               />
+                placeholder="Search..."/>
               <button className='search-button'>
               <SearchIcon color="primary" />
               </button>
              
         </div>
-       <div>Returns<br/> & Orders</div><div className="user"><div className="  storecart" 
-      ><LockOpenIcon /> SignIn / <LockIcon />  SignUp</div>
-          <div className="storecart"><ShoppingCartIcon color="secondary" /> Cart</div>
+       <h4>Returns<br/> & Orders</h4>
+       <div className="user">
+        <h4 className="  storecart"><LockOpenIcon /> SignIn / <LockIcon />  SignUp</h4>
+          <h4 className="storecart"><ShoppingCartIcon color="secondary" /> Cart</h4>
         </div>
       </div>
       <div className="submenu">
